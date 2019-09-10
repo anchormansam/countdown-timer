@@ -1,5 +1,4 @@
-//var deadline = 'December 6, 2019 17:00:00';
-var deadline = 'September 10, 2019 15:54:00';
+var deadline = 'December 6, 2019 17:00:00';
 // var diff = getTimeremaining(deadline);
 var milliseconds = 1000;
 var clock = document.getElementById('clocktimer');
