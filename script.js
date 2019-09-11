@@ -1,9 +1,7 @@
 var deadline = 'December 6, 2019 17:00:00';
-// var diff = getTimeremaining(deadline);
 var milliseconds = 1000;
 var clock = document.getElementById('clocktimer');
 initializeClock(clock, deadline);
-// var diff = getTimeremaining(deadline);
 var milliseconds = 1000;
 var clock = document.getElementById('clocktimer');
 initializeClock(clock, deadline);

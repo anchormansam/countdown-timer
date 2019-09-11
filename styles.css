@@ -1,6 +1,47 @@
+html{ height: 100%;
+      width: 100%;
+
+}
+
 body{ background: url('img.jpg') no-repeat;
     height: 100%;
-    width: 100;
+    width: 100%;
     background-size: cover;
+    position: relative;
+    
     
 }
+h1{ 
+    background: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #f4f8f4;
+    width: 50%;
+    padding: 20px;
+    border: 5px solid rgb(11, 128, 196);
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#clockwrap {
+    background: white;
+    font-family: 'digital-7'; src: url('./fonts/digital-7.ttf');
+    font-size: 60px;
+    color: rgb(63, 152, 204);
+    text-align: center;
+     width: auto;
+     padding: 20px;
+     border: 5px solid gray;
+     position: absolute;
+     bottom: 30%;
+     left: 50%;
+     transform: translateX(-50%);
+  }
+
+p{
+    font-size: 20px;
+}
+
+/*top right bottom left*/
